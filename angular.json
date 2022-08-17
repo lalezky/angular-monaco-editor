@@ -24,8 +24,295 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.scss"],
-            "scripts": []
+            "styles": [
+              "src/styles.scss",
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/platform/actions/browser/menuEntryActionViewItem.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/tree/media/tree.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/dropdown/dropdown.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/splitview/splitview.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/mouseCursor/mouseCursor.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/iconLabel/iconlabel.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/hover/hover.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/keybindingLabel/keybindingLabel.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon-modifiers.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/progressbar/progressbar.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/contextview/contextview.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/toggle/toggle.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/countBadge/countBadge.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/button/button.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/table/table.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/aria/aria.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/list/list.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/actionbar/actionbar.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/findinput/findInput.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/sash/sash.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/inputbox/inputBox.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/browser/ui/scrollbar/media/scrollbars.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/media/quickInput.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/standalone/browser/iPadShowKeyboard/iPadShowKeyboard.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/standalone/browser/accessibilityHelp/accessibilityHelp.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/standalone/browser/inspectTokens/inspectTokens.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standalone-tokens.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInput.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/browser/media/suggest.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/folding/browser/folding.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/browser/media/gotoErrorWidget.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/peekView/browser/media/peekViewWidget.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/dnd/browser/dnd.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/snippet/browser/snippetSession.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/unicodeHighlighter/browser/unicodeHighlighter.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/unicodeHighlighter/browser/bannerController.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/message/browser/messageController.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/browser/lightBulbWidget.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/browser/media/action.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/anchorSelect/browser/anchorSelect.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/links/browser/links.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/colorPicker/browser/colorPicker.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/bracketMatching/browser/bracketMatching.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/inlineCompletions/browser/ghostText.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/zoneWidget/browser/zoneWidget.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/codelens/browser/codelensWidget.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/rename/browser/renameInputField.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/parameterHints/browser/parameterHints.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/find/browser/findWidget.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/browser/link/goToDefinitionAtPosition.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lineNumbers/lineNumbers.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/selections/selections.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/linesDecorations/linesDecorations.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/blockDecorations/blockDecorations.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/viewCursors/viewCursors.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/minimap/minimap.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/decorations/decorations.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/indentGuides/indentGuides.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/glyphMargin/glyphMargin.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lines/viewLines.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/marginDecorations/marginDecorations.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/rulers/rulers.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/editor.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffEditor.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffReview.css",
+                "inject": false
+              },
+              {
+                "input": "./node_modules/monaco-editor/esm/vs/editor/browser/controller/textAreaHandler.css",
+                "inject": false
+              }
+            ],
+            "scripts": [],
+            "webWorkerTsConfig": "tsconfig.worker.json"
           },
           "configurations": {
             "production": {
@@ -88,7 +375,8 @@
             "inlineStyleLanguage": "scss",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.scss"],
-            "scripts": []
+            "scripts": [],
+            "webWorkerTsConfig": "tsconfig.worker.json"
           }
         }
       }
